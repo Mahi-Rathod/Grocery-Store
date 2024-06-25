@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.scrollbar-thin::-webkit-scrollbar {
+  width: 1px; /* Adjust the width to your preference */
+  height: 8px; /* Adjust the height for horizontal scrollbar if needed */
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: #4a5568; /* Customize thumb color */
+  border-radius: 4px; /* Customize thumb border-radius */
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background-color: #edf2f7; /* Customize track color */
+}
